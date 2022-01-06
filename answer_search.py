@@ -7,7 +7,7 @@ class AnswerSearcher:
         self.g = Graph(
             "http://127.0.0.1:7474",
             user="neo4j",
-            password="zyl123654879")
+            password="password")
         self.num_limit = 20
 
     '''执行cypher查询，并返回相应结果'''
